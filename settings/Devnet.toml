@@ -1,5 +1,21 @@
 [network]
 name = "devnet"
+deployment_fee_rate = 10
+
+[network.node]
+rpc_address = "http://localhost:20443"
+p2p_address = "http://localhost:20444"
+
+# Enable epoch 3.0 for Clarity 3 support
+[network.epochs]
+epoch_2_0 = 100
+epoch_2_05 = 101
+epoch_2_1 = 102
+epoch_2_2 = 103
+epoch_2_3 = 104
+epoch_2_4 = 105
+epoch_2_5 = 106
+epoch_3_0 = 107
 
 [accounts.deployer]
 mnemonic = "<YOUR-MNEMONIC-HERE>"
