@@ -1,28 +1,9 @@
 [project]
 name = "stacks-biometric-vault"
-description = "Biometric-secured wallet using Clarity 4's secp256r1-verify for passkey authentication"
-authors = ["Builder Challenge Participant"]
-telemetry = false
-requirements = []
-boot_contracts = []
 
 [contracts.biometric-auth]
 path = "contracts/biometric-auth.clar"
-clarity_version = 3
 
 [contracts.vault]
 path = "contracts/vault.clar"
-clarity_version = 3
-
-[contracts.recovery]
-path = "contracts/recovery.clar"
-clarity_version = 3
-
-[repl.analysis]
-passes = ["check_checker"]
-
-[repl.analysis.check_checker]
-strict = false
-trusted_sender = false
-trusted_caller = false
-callee_filter = false
+depends_on = ["biometric-auth"]
