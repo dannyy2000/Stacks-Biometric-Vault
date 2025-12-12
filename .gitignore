@@ -1,0 +1,36 @@
+# Clarinet
+.cache/
+costs-reports.json
+deployments/
+history.txt
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Keys (never commit!)
+*.pem
+*.key
+private-keys/
+
+# Logs
+*.log
+npm-debug.log*

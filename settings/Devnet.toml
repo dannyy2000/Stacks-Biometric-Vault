@@ -1,0 +1,18 @@
+[network]
+name = "devnet"
+
+[accounts.deployer]
+mnemonic = "<YOUR-MNEMONIC-HERE>"
+balance = 100_000_000_000_000
+
+[accounts.wallet_1]
+mnemonic = "<YOUR-MNEMONIC-HERE>"
+balance = 100_000_000_000_000
+
+[accounts.wallet_2]
+mnemonic = "<YOUR-MNEMONIC-HERE>"
+balance = 100_000_000_000_000
+
+[accounts.wallet_3]
+mnemonic = "<YOUR-MNEMONIC-HERE>"
+balance = 100_000_000_000_000
